@@ -10,7 +10,7 @@
 ## 3.Где можно скачать  
 Можно скачать здесь - [pretify_json](https://github.com/aligang/4_json.git)
 
-## 4.Как этим пользоваться...   
+## 4.Как этим пользоваться...  
 *a.Данный код может быть исползован как самостоятельная программа, при этом программа*
 *попросит Вас указать файл с JSON*
 
@@ -38,10 +38,10 @@ $ python3.5 pprint_json.py <path to file>
 Импортировать и использовать функцию коди можно  следующим образом:  
 ```python
 from pprint_json import load_data
-from pprint_json import pretty_print_json
+from pprint_json import print_pretty_json
 
 data_dict = load_data(filepath)
-pretty_print_json(data_dict)
+print_pretty_json(data_dict)
 ```
 
 ## 6. Цели
