@@ -22,6 +22,7 @@ $ python3.5 pprint_json.py <path to file>
 	        "красивый  JSON,уровнь 3":{
                 "пейлоуд, уровня 3"
             }
+        }
     }
 }
 
