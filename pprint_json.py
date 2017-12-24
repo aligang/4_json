@@ -11,7 +11,7 @@ def pretty_print_json(data_dict):
     print(pretty_json)
 
 if __name__ == '__main__':
-    filepath = input("Ведите адрес некрасивого json-a")
+    filepath = input("Укажите файл, где хранится некрасивый  json")
     data_dict = load_data(filepath)
     pretty_print_json(data_dict)
 
