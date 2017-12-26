@@ -1,5 +1,6 @@
 import json
 import sys
+import os
 
 
 def load_data(json_filepath):
@@ -20,5 +21,8 @@ def print_pretty_json(object_representing_json):
 
 if __name__ == '__main__':
     json_filepath = sys.argv[1]
-    object_representing_json = load_data(json_filepath)
-    print_pretty_json(object_representing_json)
+    if os.path.exists(json_filepath):
+        object_representing_json = load_data(json_filepath)
+        print_pretty_json(object_representing_json)
+    else:
+        print(" Такой файл не существует :( ")
